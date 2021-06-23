@@ -3,7 +3,7 @@ logging:
   level:
     root: debug
 server:
-  port: 8080
+  port: 10100
   servlet:
     context-path: /
 spring:
@@ -16,8 +16,8 @@ spring:
       stat-view-servlet:
         allow: true
       test-on-borrow: true
-    password: 123456
-    url: jdbc:mysql://localhost:3306/springboot_demo
+    password: root
+    url: jdbc:mysql://localhost:3306/db_springboot_crm
     username: root
   thymeleaf:
     cache: false
